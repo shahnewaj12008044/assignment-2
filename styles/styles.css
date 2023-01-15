@@ -1,8 +1,7 @@
 /* common-designs----------- */
-header{
+body{
     font-family:'Work Sans';
 }
-
 /* ---------------
     header designs
 --------------- */
@@ -103,6 +102,24 @@ header{
     width: 800px;
     height: 1059px;
 }
+.latest-button{
+    width: 250px;
+    height: 120px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    color:white;
+    padding:5px;
+    position: relative;
+    bottom:140px;
+    left:20px;
+}
+.latest-button h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 5px;
+
+}
 .two-details{
     display: flex;
     flex-direction: column;
@@ -119,11 +136,75 @@ header{
     width: 252px;
     height: 23px;
 }
-.exlpanation{
+.explanation{
     color: #727272;
     font-weight: 400;
     font-size: 16px;
     width: 514px;
     height: 78px;
 }
+/* *************section three********** */
 
+.three{
+    position: relative;
+    left:300px;
+    top:350px;
+}
+.three h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+/* -------------section four------------- */
+.four{
+    display: flex;
+    position: relative;
+    left:300px;
+    top:400px;
+    width:1340px;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+.box{
+    width: 200.83px;
+    height: 200.83px;
+    border: 1px solid #FF900E;
+    padding:40px 0 5px 50px;
+    border-radius: 8px;
+
+}
+/* ---------------section five--------------- */
+.five{
+    position:relative;
+    left:300px;
+    top:400px;
+}
+.five-details{
+    position: relative;
+    left:25%;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    width:1440px;
+}
+
+/*---------------- footer sectio------------ */
+.foot-container{
+    width: 1440px;
+    height: 100px;
+    position: relative;
+    left:300px;
+    right:300px;
+    top:500px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-container p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
