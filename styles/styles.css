@@ -1,6 +1,7 @@
 /* common-designs----------- */
 body{
     font-family:'Work Sans';
+    width:100%;
 }
 /* ---------------
     header designs
@@ -206,5 +207,8 @@ body{
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+}
+/* ---------media queary-------- */
+@media only screen and (max-width:576px){
 
 }
