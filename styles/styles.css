@@ -75,7 +75,7 @@ body{
 .one{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    row-gap:30px;
+    column-gap:30px;
     align-items: center;
     position:relative;
     left:300px;
